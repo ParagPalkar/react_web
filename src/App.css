@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*Scrollbar*/
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--peach);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--green);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+:root {
+  --brdr : 1px solid black;
+  --standard-width : 1232px;
+  --green : #3A643B;
+  --peach : #FFF7E2;
+  --grey : #333548;
+  --border-color : #F4F7EC;
+  --regular : 400; /*400*/
+  --medium : 0.875rem;  /*500*/ 
+  --semi-bold : 1.25rem; /*600*/
+  --bold : 700; /*700*/
+}
+
+
+
+.header {
+  display: flex;
+  background: var(--peach);
+  height: 94px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  width: var(--standard-width);
+  height: 56px;  
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  width: 330px;    
+  justify-content: space-between;
+}
+
+.nav-items {
+  font-weight: var(--semi-bold);
+  
+}
+
+.login {   
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 11px;
+  padding: 13px 23px;
+  border: 1px solid var(--green);
+  background-color: var(--peach);
+  color: var(--green);
+}
+.signup {
+  margin-left: 16px;   
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 11px;
+  padding: 14px 24px;
+  border: none;
+  background-color: var(--green);
+  color: var(--peach);
+}
+
+/*Booking Appointment*/
+
+.book-container {
+  margin-left: 90px;
+  margin-top: 60px;
+  height: 280px;
+  border-radius: 12px;
+  width: 1210px;
+  background-color: var(--peach);
+}
+
+.upper-container {
+  display: flex;
+  height: 128px;
+  border-radius: 12px;
+  background-image: url('/public/image 160.png');
+}
+.lower-container {
+  display: flex;
+  height: 100px;
+  border-radius: 12px;
+  background-color: var(--peach);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+}
+
+.profile-details{
+  margin-left: 20px;
+}
+
+.adjustmentFlex{
+  display: flex;
+}
+
+.profile-pic {
+  width: 159px;
+  height: 159px;
+}
+
+.pname{
+  font-weight: var(--bold);
+}
+
+.prof{
+  font-weight: var(--medium);
+  color: var(--green);
+}
+
+
+.following-data {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Content FLex*/
+.content {
+  display: flex;
+  margin-left: 90px;
+  margin-top: 41px;
+  width: 1210px;
+}
+
+/*First column*/
+.column1{
+  width: 628px;
+  margin-right: 31px;
+  
+}
+.AliitleAboutMe {
+  width: 628px;
+  margin-bottom: 33px;
+  margin-right: 31px;
+  border-radius: 18px;
+  border: 1px solid #DCDCDC;
+}
+/*Second column*/
+.content2 {
+  width: 584px;
+  border-radius: 18px;
+  border: 1px solid rgb(58, 18, 90);
+}
+
+.detail-header {
+  display: flex;
+  padding: 10px 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-display {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  margin: 27px 35px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-size: var(--semi-bold);
+}
+.content-text{
+  font-size: var(--regular);
+  color: var(--grey);
+}
+
+p {
+  font-size: var(--regular);
+}
+
+.languages {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang {
+  font-size: var(--semi-bold);
+}
+
+.lang-text { 
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: var(--medium);
+  border-radius: 16px;
+  padding: 10px 25px;
+  background-color: var(--border-color);
+}
+
+.social-icons-cont{
+  display: flex;
+}
+
+.icon-circle{
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  height: 35px;
+  width: 35px;
+  background-color: var(--border-color);
+  border: 1px solid #3A643B;
+}
+
+/*specialize*/
+.specialize-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+
