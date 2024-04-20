@@ -10,6 +10,8 @@ const Appoinment = () => {
 
     return (
         <>
+        <div className="container-profile">
+
             <div className="book-container">
                 <div className="upper-container">
 
@@ -49,6 +51,7 @@ const Appoinment = () => {
 
                     </div>
                 </div>
+                            </div>
         </>
     )
 }

@@ -1,9 +1,11 @@
 * {
-  margin: 0;
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 
 body {
+  width: 100%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -24,6 +26,8 @@ body::-webkit-scrollbar-thumb {
 :root {
   --brdr : 1px solid black;
   --standard-width : 1232px;
+  --selected-border : #67BB69;
+  --selected-bg : #F2FBF2;
   --green : #3A643B;
   --peach : #FFF7E2;
   --grey : #333548;
@@ -46,9 +50,10 @@ body::-webkit-scrollbar-thumb {
 
 .header-content {
   display: flex;
-  width: var(--standard-width);
+  width: 92%;
   height: 56px;  
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar {
@@ -90,16 +95,26 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--green);
   color: var(--peach);
 }
-
+/*Page flex layout container*/
+.page {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+}
 /*Booking Appointment*/
+.container-profile {
+  display: flex;
+  justify-content: center;
+
+}
 
 .book-container {
-  margin-left: 90px;
-  margin-top: 60px;
   height: 280px;
   border-radius: 12px;
-  width: 1210px;
+  width: 90%;
   background-color: var(--peach);
+  display: flex;
+  flex-direction: column;
 }
 
 .upper-container {
@@ -154,29 +169,36 @@ body::-webkit-scrollbar-thumb {
 /*Content FLex*/
 .content {
   display: flex;
-  margin-left: 90px;
-  margin-top: 41px;
-  width: 1210px;
+  width: 100%;
+  margin-top: 40px;
+  justify-content: center;
 }
 
 /*First column*/
 .column1{
-  width: 628px;
-  margin-right: 31px;
+  margin: 0;
+  padding: 0;
+  width: 47%;
   
 }
 .AliitleAboutMe {
-  width: 628px;
-  margin-bottom: 33px;
-  margin-right: 31px;
+  width: 95%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   border-radius: 18px;
   border: 1px solid #DCDCDC;
 }
 /*Second column*/
-.content2 {
+/* .content2 {
   width: 584px;
   border-radius: 18px;
-  border: 1px solid rgb(58, 18, 90);
+  border: 1px solid #DCDCDC;
+} */
+
+.content2_border {
+  width: 584px;
+  border-radius: 18px;
+  border: 1px solid #DCDCDC;
 }
 
 .detail-header {
@@ -210,8 +232,8 @@ p {
 .languages {
   margin: 5px 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  /* background-color: #3A643B; */
 }
 
 .lang {
@@ -219,7 +241,6 @@ p {
 }
 
 .lang-text { 
-  margin-left: 20px;
   outline: none;
   cursor: pointer;
   font-size: 16px;
@@ -317,4 +338,103 @@ p {
   margin: 10px 0px;
 }
 
+/*Content2*/
 
+.display-area {
+  /* border: 1px solid rgb(211, 65, 65); */
+  margin: 20px 20px;
+}
+
+
+.fee {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 28px;
+  border: 1px solid #DCDCDC;
+  border-radius: 17px;
+  margin-bottom: 45px;
+}
+
+.charges {
+  color: var(--green);
+  font-weight: var(--bold);
+}
+
+/*Sessions*/
+
+.sessions {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sessionone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #DCDCDC;
+  width: 158px;
+  height: 78px;
+  border-radius: 10px;
+}
+
+.selected {
+  background-color: var(--selected-bg);
+  border: 1px solid #67BB69;
+}
+
+.tickline {
+  display: flex;
+  align-items: center;    
+}
+
+.tick{
+  margin-left: 10px;
+}
+
+/*Pick a time*/
+.timehead{
+  display: flex;
+  margin: 42px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.week-container {
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 50px;
+  border: 1px solid #DCDCDC;
+}
+
+/*Time container*/
+.timecontainer {
+  margin: 42px 30px;
+}
+
+.timediv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px 0px;
+}
+
+.tchip {
+  cursor: pointer;
+  display: flex;
+  padding: 17px 24px;
+  margin: 4px 4px;
+  border-radius: 22px;
+  border: 1px solid #DCDCDC;
+}
+
+/*apmnt btn*/
+.apmnt{
+  cursor: pointer;
+  justify-content: center;
+  color: white;
+  background-color: var(--green);
+}
