@@ -3,6 +3,7 @@ import Fee from './Fee'
 import Sessions from './Sessions'
 import Weekdays from './Weekdays'
 import Time from './Time/Time'
+import WeekCrousel from './WeekCrousel'
 
 const Content2 = () => {
   return (
@@ -22,7 +23,8 @@ const Content2 = () => {
           <img src="public/cal.png" alt="cal" />
         </div>
 
-        <Weekdays />
+        {/* <Weekdays /> */}
+          <WeekCrousel />
 
         <Time />
 

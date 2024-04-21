@@ -1,14 +1,21 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
 import Page from './components/Page'
+import PageTwo from './components/Page2/PageTwo'
 
 function App() {
 
   return (
-   <>
-    <Header />
-    <Page />
-   </>
+   
+   <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Page />} />
+      <Route path='/find' element={<PageTwo />} />
+    {/* <Header /> */}
+    {/* <Page /> */}
+   
+    </Routes>
+   </BrowserRouter>
   )
 }
 

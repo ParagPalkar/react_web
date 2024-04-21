@@ -1,13 +1,15 @@
 import React from 'react'
 import Appoinment from './Appoinment'
 import Content from './Contents/Content'
+import Header from './Header'
 
 const Page = () => {
   return (
     <>
-        <div className="page">
-            <Appoinment />
-            <Content />
+            <Header />
+              <div className="page">
+              <Appoinment />
+              <Content />
         </div>
     </>
   )
