@@ -10,48 +10,56 @@ const Appoinment = () => {
 
     return (
         <>
-        <div className="container-profile">
+            <div className="container-profile">
 
-            <div className="book-container">
-                <div className="upper-container">
-
-                </div>
-                <div className="lower-container">
-                    <div className="profile">
-
-                        <img className='profile-pic' src="public\Ellipse 727.png" alt="profile_pic" />
-                        <div className="profile-details">
-                            <p className="pname">Dr. Bruce Willis <box-icon name='badge-check' type='solid' color='#1a44eb' ></box-icon></p>  
-                            <p className="prof">Gynecologist</p>
-                            <p className="stars">4.5 
-                            <box-icon name='star' type='solid' color='#f79624' ></box-icon>
-                            <box-icon name='star' type='solid' color='#f79624' ></box-icon>
-                            <box-icon name='star' type='solid' color='#f79624' ></box-icon>
-                            <box-icon name='star' type='solid' color='#f79624' ></box-icon>
-                            </p> 
-                        </div>
-                    </div>
-
-                        <div className="following-data">
-
-                            {
-                                followingData.map((item, index) => (
-                                    <>
-                                        <div key={index} className="databox">
-
-                                            <p className="ftitle">{item.title}</p>
-                                            <p className="fdata">{item.data}</p>
-                                        </div>
-                                    </>
-                                ))
-                            }
-                        </div>
-
-                        <button className='signup' >Book an Appointment</button>
+                <div className="book-container">
+                    <div className="upper-container">
 
                     </div>
-                </div>
+                    <div className="lower-container">
+                        <div className="parent-profile-container">
+                            <div className="profile">
+                                
+                                <img src="public/Ellipse 727.png" alt="profilepic" className="profilepic" />
+                                
+                                <div className="profiledetails">
+                                    <div className="titleflex">
+                                        <p className="ptitle">Dr. Bruce Willis</p>
+                                        <img src="public/blue.png" alt="" />
+                                    </div>
+                                
+                                        <p className="gyn">Gynecologist</p>
+
+                                    <div className="stars">
+                                        <p className="str">4.5</p>
+                                        <img src="public/stars.png" alt="" />
+                                    </div>    
+                                </div>
                             </div>
+
+                            <div className="following-cont">
+                                <div className="fcont">
+                                    <p className="ftitle">Followers</p>
+                                    <p className="data">850</p>
+                                </div>
+                                <div className="fcont">
+                                    <p className="ftitle">Following</p>
+                                    <p className="data">18k</p>
+                                </div>
+                                <div className="fcont">
+                                    <p className="ftitle">Posts</p>
+                                    <p className="data">150</p>
+                                </div>
+                            </div>
+
+                            <div className="booking">
+                                <p>Book an Appointment</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

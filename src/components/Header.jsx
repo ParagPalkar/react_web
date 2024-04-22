@@ -7,16 +7,16 @@ const Header = () => {
     
       <div className='header'>
         <div className='header-content'>
-          <img src="public\image 45.png" alt="AMRUTAM" />
+          <img className='logo' src="public\image 45.png" alt="AMRUTAM" />
           <div className='navbar'>
-            <NavLink to={"/"}>
+            <NavLink style={{color : 'black', textDecoration: 'none'}} to={"/"}>
               <h3 className='nav-items'>Home</h3>
             </NavLink> 
-            <NavLink to={"/find"}>
+            <NavLink style={{color : 'black', textDecoration: 'none'}} to={"/find"}>
             <h3 className='nav-items'>Find Doctor</h3>
             </NavLink> 
 
-            <h3 className='nav-items'>About Us</h3>
+            {/* <h3 className='nav-items'>About Us</h3> */}
           </div>
           <div className='btn'>
             <button className='btn login' >Login</button>
