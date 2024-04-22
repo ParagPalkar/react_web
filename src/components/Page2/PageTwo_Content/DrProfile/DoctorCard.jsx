@@ -4,7 +4,7 @@ const DoctorCard = () => {
     return (
         <div className="DoctorCard">
             <div className="DocContent">
-                <img src="src/public/Doc.png" alt="" />
+                <img src="src/assets/Doc.png" alt="" />
                 <div className="badge">
                     <p className="badgetext">
                         4.5
@@ -17,15 +17,15 @@ const DoctorCard = () => {
 
                 <div className="drdetail_container">
                     <div className="drdetail">
-                        <img src="src/public/1.png" alt="1" />
+                        <img src="src/assets/1.png" alt="1" />
                         <p className="drdetail_txt">Male-Female Infertility</p>
                     </div>
                     <div className="drdetail">
-                        <img src="src/public/2.png" alt="1" />
+                        <img src="src/assets/2.png" alt="1" />
                         <p className="drdetail_txt">7 Years of Experience</p>
                     </div>
                     <div className="drdetail">
-                        <img src="src/public/3.png" alt="1" />
+                        <img src="src/assets/3.png" alt="1" />
                         <p className="drdetail_txt">Speaks: English, Hindi, Marathi</p>
                     </div>
                 </div>
