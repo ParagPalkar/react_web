@@ -20,7 +20,7 @@ const Content2 = () => {
         
         <div className="timehead">
           <p className="text">Pick a time slot</p>
-            <img src="src/assets/cal.png" alt="cal" />
+            <img src="/assets/cal.png" alt="cal" />
         </div>
 
         {/* <Weekdays /> */}

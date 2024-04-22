@@ -7,7 +7,7 @@ const Header = () => {
     
       <div className='header'>
         <div className='header-content'>
-          <img className='logo' src="src/assets/image 45.png" alt="AMRUTAM" />
+          <img className='logo' src="/assets/image 45.png" alt="AMRUTAM" />
           <div className='navbar'>
             <NavLink style={{color : 'black', textDecoration: 'none'}} to={"/"}>
               <h3 className='nav-items'>Home</h3>

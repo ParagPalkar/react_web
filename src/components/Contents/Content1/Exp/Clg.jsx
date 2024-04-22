@@ -5,7 +5,7 @@ const Clg = () => {
     <>
         <div className="clg">
                 <div className="clgname">
-                    <img src="src/assets/clg.png" alt="College" />
+                    <img src="/assets/clg.png" alt="College" />
                     <div className="clgtext">
 
                         <p className="clgtitle">Midtown Medical Clinic</p>

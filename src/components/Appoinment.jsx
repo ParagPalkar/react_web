@@ -15,19 +15,19 @@ const Appoinment = () => {
                         <div className="parent-profile-container">
                             <div className="profile">
                                 
-                                <img src="src/assets/Ellipse 727.png" alt="profilepic" className="profilepic" />
+                                <img src="/assets/Ellipse 727.png" alt="profilepic" className="profilepic" />
                                 
                                 <div className="profiledetails">
                                     <div className="titleflex">
                                         <p className="ptitle">Dr. Bruce Willis</p>
-                                        <img src="src/assets/blue.png" alt="" />
+                                        <img src="/assets/blue.png" alt="" />
                                     </div>
                                 
                                         <p className="gyn">Gynecologist</p>
 
                                     <div className="stars">
                                         <p className="str">4.5</p>
-                                        <img src="src/assets/stars.png" alt="" />
+                                        <img src="/assets/stars.png" alt="" />
                                     </div>    
                                 </div>
                             </div>
