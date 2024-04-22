@@ -631,12 +631,12 @@ p {
   align-items: center;
   height: 221px;
   width: 100%;
-  background-image: url('public/Frame.png');
+  background-image: url('/assets/Frame.png');
 }
 
 .htext{
   font-size: x-large ;
-  margin: 3rem;
+  margin: 2.5rem;
   font-weight: var(--semi-bold);
 }
 
@@ -647,12 +647,21 @@ p {
   width: 100%;
 }
 
+
+.herointput {
+  margin-bottom: 0.5rem;
+}
+
+.doctorinput{
+  margin-bottom: 0.5rem;
+
+}
 .FilterInputs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 18px 0px;
-  margin: 0 5%;
+  margin: 2rem 5%;
 }
 
 .inputblock {
