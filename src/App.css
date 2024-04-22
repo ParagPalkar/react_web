@@ -177,7 +177,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   height: 6rem;
   border-radius: 12px;
-  background-image: url('/public/image 160.png');
+  background-image: url('src/public/image 160.png');
 }
 
 .lower-container {

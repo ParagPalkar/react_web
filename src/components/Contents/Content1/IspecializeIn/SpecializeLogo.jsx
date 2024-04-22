@@ -3,10 +3,10 @@ import React from 'react'
 const SpecializeLogo = () => {
 
   const logos = [
-    {title: "Women's Health",src : "public/women.png", alt : "women"},
-    {title: "Skin Care",src : "public/skin.png", alt : "skin"},
-    {title: "Immunity",src : "public/immunity.png", alt : "immunity"},
-    {title: "Hair Care",src : "public/haircare.png", alt : "haircare"},
+    {title: "Women's Health",src : "src/public/women.png", alt : "women"},
+    {title: "Skin Care",src : "src/public/skin.png", alt : "skin"},
+    {title: "Immunity",src : "src/public/immunity.png", alt : "immunity"},
+    {title: "Hair Care",src : "src/public/haircare.png", alt : "haircare"},
   ]
 
   return (

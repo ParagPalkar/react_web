@@ -11,7 +11,7 @@ const Sessions = () => {
           <div className="tickline">
 
             <p className="primary">In-Clinic</p> 
-            <img className='tick' src="public/tick.png" alt="tick" />
+            <img className='tick' src="src/public/tick.png" alt="tick" />
           </div>
             <p className="secondary">45 mins</p>
         </div>

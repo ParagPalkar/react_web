@@ -8,7 +8,7 @@ const Review = () => {
 
         <div className="clg">
                 <div className="clgname">
-                    <img src="public/reviewpic.png" alt="College" />
+                    <img src="src/public/reviewpic.png" alt="College" />
                     <div className="clgtext">
 
                         <p className="clgtitle">Alicent Hightower Clinic</p>
@@ -20,7 +20,7 @@ const Review = () => {
             </div>
 
             <div className="str">
-                <img src="public/stars.png" alt="stars" />
+                <img src="src/public/stars.png" alt="stars" />
                 <p className="reviewinfo">Might be bit early to confirm but yes I can see noticeable difference in my hairfall. will write again after using it for longer periods</p>
             </div>
             </div>
